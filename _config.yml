@@ -1,5 +1,7 @@
 title: hldblog
 markdown: kramdown
+url: ""
+baseurl: "/blog"
 # for atom feed
 author:
   name: heavylightdecomp
