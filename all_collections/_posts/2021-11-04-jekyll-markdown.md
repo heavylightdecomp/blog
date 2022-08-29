@@ -4,6 +4,8 @@ title: Jekyll Markdown
 date: 2021-11-04
 categories: ["jekyll", "Test Post", "first post"]
 ---
+I found that when using this template Github Gist embed rendering is kinda weird (maybe some things with CSS styles leaking, idk)
+<script src="https://gist.github.com/heavylightdecomp/3b20d80f32bf3c4ca8b0a70d0cfff2bc.js"></script>
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`
 
