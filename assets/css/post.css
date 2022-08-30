@@ -45,8 +45,8 @@ header {
 }
 main {
   margin: 0 auto;
-  max-width: 650px;
-  padding: 3rem 0 4rem 0;
+  max-width: 100000px;
+  padding: 3rem 7% 4rem 7%;
 }
 .article {
   margin-bottom: 3rem;
@@ -182,6 +182,41 @@ main {
   background-color: var(--gray-3);
 }
 
+pre { white-space: pre; overflow-x: scroll; }
+
+/* pre {
+	.line-number {
+		display: block;
+		float: left;
+		margin: 0 1em 0 -1em;
+		border-right: 1px solid #ddd;
+		text-align: right;
+		span {
+		  display: block;
+		  padding: 0 .5em 0 1em;
+		  color: #ccc;
+		}
+	  }
+} */
+
+pre .line-number {
+	display: block;
+	float: left;
+    margin: 0 1em 0 -1em;
+    border-right: 1px solid #ddd;
+    text-align: right;
+}
+
+pre .line-number span:not(.language-plaintext) {
+	display: block;
+    padding: 0 .5em 0 1em;
+    color: #ccc;
+}
+
+pre .cl:not(.language-plaintext) {
+	display: block;
+	clear: both;
+}
 /* lbox */
 
 .content img {
