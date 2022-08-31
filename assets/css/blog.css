@@ -41,8 +41,8 @@ header .site-title {
 }
 main {
   margin: 0 auto;
-  max-width: 650px;
-  padding: 3rem 0;
+  max-width: 1000000px;
+  padding: 3rem 10% 4rem 10%;
 }
 
 /* header */
