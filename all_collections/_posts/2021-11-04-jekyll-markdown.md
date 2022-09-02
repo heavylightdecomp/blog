@@ -7,6 +7,9 @@ categories: ["jekyll", "Test Post", "first post"]
 I found that when using this template Github Gist embed rendering is kinda weird (maybe some things with CSS styles leaking, idk)
 <script src="https://gist.github.com/heavylightdecomp/3b20d80f32bf3c4ca8b0a70d0cfff2bc.js"></script>
 
+Yo, spoiler tags can be done like this: `<details><summary>My spoiler tag text</summary> My spoiler tag content </details>`, "GFM supports a subset of HTML"
+<details><summary>My spoiler tag text</summary> My spoiler tag content </details>
+
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`
 
 [Link to another page](./another-page.html).

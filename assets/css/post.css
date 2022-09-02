@@ -253,3 +253,7 @@ pre .cl {
     padding: 1.5rem;
   }
 }
+
+details summary {
+	font-size: 1.18rem;
+}
