@@ -14,7 +14,7 @@
             {% endfor %}
           </div>
         </div>
-        <div class="content">{{content}}</div>
+        <div class="content">{% include anchor_headings.html html=content anchorBody="#" beforeHeading=true %}</div>
 		<script src="{{site.baseurl}}/assets/js/linenum.js"></script>
       </section>
       {% include footer.html %}
