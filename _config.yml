@@ -1,6 +1,6 @@
 title: hldblog
 markdown: kramdown
-url: ""
+url: "/blog"
 baseurl: "/blog"
 # for atom feed
 author:
