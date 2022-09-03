@@ -256,4 +256,5 @@ pre .cl {
 
 details summary {
 	font-size: 1.18rem;
+	cursor: pointer;
 }
