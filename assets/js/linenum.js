@@ -19,7 +19,7 @@ function getlang(el) {
 	  	pl = pre.length;
 		  for (var i = 0; i < pl; i++) {
 			var num = pre[i].innerHTML.split(/\n/).length;
-			pre[i].innerHTML = '<details><summary>' + lang + ` (${num} lines)` + '</summary><span class="line-number"></span>' + pre[i].innerHTML + '<span class="cl"></span></details>';
+			pre[i].innerHTML = `<details><summary>` + lang + ` (${num-1} lines)` + '</summary><span class="line-number"></span>' + pre[i].innerHTML + '<span class="cl"></span></details>';
 			for (var j = 0; j < (num - 1); j++) {
 			  var line_num = pre[i].getElementsByTagName('span')[0];
 			  line_num.innerHTML += '<span>' + (j + 1) + '</span>';
