@@ -1,6 +1,6 @@
 title: hldblog
 markdown: kramdown
-url: "https://heavylightdecomp.github.io/blog"
+url: "https://heavylightdecomp.github.io/"
 baseurl: "/blog"
 # for atom feed
 author:
