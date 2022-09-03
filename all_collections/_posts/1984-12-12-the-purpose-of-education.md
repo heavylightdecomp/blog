@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Purpose of Education
-date: 1948-12-12 10:18:00
+date: 1984-12-12 10:18:00
 categories: [fiction, jekyll]
 ---
 *Martin Luther King Jr.*
