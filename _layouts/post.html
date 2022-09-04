@@ -3,6 +3,11 @@
   {% include head.html %}
   <body>
     <main>
+		{% if page.mathjax %}
+		<script type="text/javascript" async
+		  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+		</script>
+		{% endif %}
       {% include header.html %}
       <section class="article">
         <div class="article-header">
