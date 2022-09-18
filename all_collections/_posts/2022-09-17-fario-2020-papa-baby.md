@@ -3,7 +3,6 @@ layout: post
 title: "FARIO 2020 Papa and Baby Frog Solution"
 date: 2022-09-17
 categories: ["aio", "solution", "competitive programming", "cpp"]
-mathjax: true
 ---
 If Papa is at the tallest stone, he cannot jump to another stone. Otherwise, he can jump to exactly one stone. Similar logic applies to Baby. If Papa can jump from stone u to v, draw a directed edge from `u` to `v`. Do the same for Baby. Sorting stones by height and using C++ set.lower_bound/set.upper_bound, we can find these edges in `O(n log n)`.
 
