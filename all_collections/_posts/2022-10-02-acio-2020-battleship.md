@@ -2,7 +2,7 @@
 layout: post
 title: "ACIO 2020 Battleship Solution"
 date: 2022-10-02
-categories: ["aio", "solution", "competitive programming", "dp", "sortings"]
+categories: ["acio", "solution", "competitive programming", "dp", "sortings"]
 mathjax: true
 ---
 A solution to [this](https://orac2.info/problem/acio20contest0battleship/) problem. As usual, please consider reading through and attempting the problem for a while :) 
