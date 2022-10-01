@@ -5,6 +5,8 @@ date: 2022-10-02
 categories: ["aio", "solution", "competitive programming", "dp", "sortings"]
 mathjax: true
 ---
+A solution to [this](https://orac2.info/problem/acio20contest0battleship/) problem. As usual, please consider reading through and attempting the problem for a while :) 
+
 Without loss of generality let's assume battleship A is either to the left or above of battleship B. The case where A is to the right or below B is covered by the case where locations of A and B are swapped. 
 
 ### Subtask 1 (single row map)
