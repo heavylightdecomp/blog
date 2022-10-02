@@ -2,7 +2,7 @@
 layout: post
 title: "Mo's algorithm can be rollbacked!"
 date: 2022-10-02
-categories: ["acio", "solution", "competitive programming", "dp", "sortings"]
+categories: ["sqrt decomposition", "tutorial", "competitive programming"]
 mathjax: true
 ---
 ### Motivation problem
