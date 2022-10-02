@@ -27,7 +27,7 @@ body {
   color: var(--white-2);
   background-color: var(--gray-6);
   font-family: "JetBrains Mono", monospace;
-  line-height: 2rem;
+  line-height: 1.7rem;
   background-color: var(--gray-5);
 }
 .content a {
@@ -84,10 +84,6 @@ main {
 }
 
 /* markdown content */
-
-.content * {
-  line-height: 180%;
-}
 .content p {
   margin: 0 0 1.75rem 0;
   padding: 0;
