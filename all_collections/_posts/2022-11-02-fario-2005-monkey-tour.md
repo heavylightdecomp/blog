@@ -37,7 +37,7 @@ To ensure our monkey does not swing in line with another tree, we must also have
 
 By Lemma 1 there are $$O(L^2)$$ possible $$(a,b)$$ pairs. You can trivially precompute them.
 
-Now imagine, in yet another graph, each integer coordinate is a node and valid swings from that coordinate are edges. We can BFS from (0,0) and output the minimum number of edges required to reach every coordinate. Obviously we can only do this with a finite number of coordinates and we must account for the fact that our monkey can swing to negative coordinates; from experimenting with the online judge, constraining x and y coordinates to $$[-220, 220]$$ suffices to score 100 points.
+Now imagine, in yet another graph, each integer coordinate is a node and valid swings from that coordinate are edges. We can BFS from (0,0) and output the minimum number of edges required to reach every coordinate. Obviously we can only do this with a finite number of coordinates and we must account for the fact that our monkey can swing to negative coordinates (going outside the $$x \times y$$ bounding box); from experimenting with the online judge, constraining x and y coordinates to $$[-220, 220]$$ suffices to score 100 points.
 
 ### Lemma 2 "Proof"
 
