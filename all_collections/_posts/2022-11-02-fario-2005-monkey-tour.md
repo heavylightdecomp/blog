@@ -49,7 +49,7 @@ WLOG assume that our swing is from $$(0,0)$$ to $$(a,b)$$ . If this is not true 
 
 For this case, suppose $$gcd(a,b) > 1$$. Our diagonal swing is a line segment. This segment can be represented by the linear function $$f(x) = \frac{b}{a}x$$ with $$0 \le x \le a$$. At $$x = \frac{a}{gcd(a,b)}$$, which is clearly not an endpoint as $$1 < gcd(a,b) \le a$$, we have $$f(x) = \frac{b}{a} \times \frac{a}{gcd(a,b)} = \frac{b}{gcd(a,b)}$$. By definition of greatest common **divisor** we know that $$ \frac{b}{gcd(a,b)} $$ is an integer. 
 
-Then we would have the integer point $$(\frac{a}{gcd(a,b)}, \frac{b}{gcd(a,b)})$$ that lies in line with the swing. So $$gcd(a,b) \ne 1$$ implies that the swing passes through an integer coordinate that is not an endpoint (another tree). Then, by the law of contraposition, $$gcd(a,b) = 1$$ implies that the swing does not pass through another tree.
+Then we would have the integer point $$(\frac{a}{gcd(a,b)}, \frac{b}{gcd(a,b)})$$ that lies in line with the swing. So $$gcd(a,b) > 1$$ implies that the swing passes through an integer coordinate that is not an endpoint (another tree). Then, by the law of contraposition, $$gcd(a,b) = 1$$ implies that the swing does not pass through another tree.
 
 **Case 2:** $$a = 0 \: \text{or} \: b = 0$$
 
