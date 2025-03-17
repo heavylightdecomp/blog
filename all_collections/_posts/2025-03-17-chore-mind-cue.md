@@ -27,13 +27,13 @@ But when? When should I tidy up my room? If you're a productivity guru, the obvi
 
 Imagine a world where you did some task `T1` for a bit, then you switched mental contexts to complete a chore `C`, then you went back and did some task `T2`. The order of the tasks you do would be
 
-... -> `T1` -> `C` -> `T2`-> ...
+`...` -> `T1` -> `C` -> `T2`-> `...`
 
 where `...` represents the things you would do before `T1` and after `T2`.
 
 I claim that doing tasks in the order
 
-... -> `C` -> `T1` -> `T2` -> ...
+`...` -> `C` -> `T1` -> `T2` -> `...`
 
 will never increase your suffering. Firstly, note that since chores are repetitive and straightforward tasks, the time at which you do the chore will basically not affect the suffering incurred by the chore (e.g. If washing the dishes at 6:30pm takes you 30 minutes, it makes sense that washing the dishes at 9pm also takes you 30 minutes).
 
