@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A nice mental cue to stop procrastinating on chores - Part 1"
+title: "A nice mental cue to stop procrastinating on chores"
 date: 2025-03-17
 categories: ["rationality"]
 mathjax: true
